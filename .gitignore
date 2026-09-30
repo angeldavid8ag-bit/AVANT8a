@@ -1,0 +1,23 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+
+# Node (por si más adelante se agregan herramientas o un backend)
+node_modules/
+npm-debug.log*
+
+# Secretos: NUNCA se suben a GitHub
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporales
+*.log
+*.tmp
